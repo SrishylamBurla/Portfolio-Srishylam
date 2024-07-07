@@ -1,12 +1,13 @@
 import React from "react";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 
 function Home() {
   return (
     <div id="home-section">
       <div className="home-first col-md-8">
         <h2>
-          <Typical
+          MERN Full Stack Developer
+          {/* <Typical
             steps={[
               "MERN Stack Developer",
               1000,
@@ -19,7 +20,7 @@ function Home() {
             ]}
             loop={Infinity}
             wrapper="b"
-          />
+          /> */}
         </h2>
         <h1>
           Hi, I'm <span>Srishylam</span> <br />
