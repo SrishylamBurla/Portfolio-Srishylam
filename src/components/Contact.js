@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div id="contact">
         
-          <div className="row mt-5">
+          <div className="row">
           <div className="contact-box col-md-6">
               <h3>Send me a message</h3>
               <div className="contact-form">

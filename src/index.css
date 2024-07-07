@@ -185,29 +185,32 @@
   margin-left: 100px;
   width: 70%;
 }
+
 .contact-box{
   margin-bottom: 50px;
+  
 }
 
-.contact-info{
+/* .contact-info{
   margin-left: 130px;
   width: 60%; 
-}
-.contact-info h3{
+} */
+
+#contact h3{
+  color: #ff004f;
   margin-bottom: 70px;
 }
-
 
 .form-group{
   margin-bottom: 20px;
 }
 
 input, textarea{
-  background-color: #f8f9fa;
   width: 80%;
   border-radius: 8px;
   border: none;
   padding: 12px;
+  border: 1px solid bisque;
 }
 
 

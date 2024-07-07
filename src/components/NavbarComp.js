@@ -14,11 +14,11 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
-            <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <Nav.Link id='nav-item' as={Link} to="/">Home</Nav.Link>
+            <Nav.Link id='nav-item' as={Link} to="/about">About</Nav.Link>
+            <Nav.Link id='nav-item' as={Link} to="/skills">Skills</Nav.Link>
+            <Nav.Link id='nav-item' as={Link} to="/projects">Projects</Nav.Link>
+            <Nav.Link id='nav-item' as={Link} to="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
