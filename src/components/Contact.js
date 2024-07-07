@@ -3,11 +3,9 @@ import React from "react";
 function Contact() {
   return (
     <div id="contact">
-      
-        <h2>Contact Me</h2>
         
           <div className="row mt-5">
-          <div className="col-md-6">
+          <div className="contact-box col-md-6">
               <h3>Send me a message</h3>
               <div className="contact-form">
               <form method="submit">
@@ -33,7 +31,7 @@ function Contact() {
                     placeholder="Your Message"
                   ></textarea>
                 </div>
-                <button className="btn" type="submit">
+                <button className="btn btn-primary" type="submit">
                   Send Message
                 </button>
               </form>
@@ -44,10 +42,9 @@ function Contact() {
             <div className="contact-info">
             <h3>Contact information</h3>
             
-            <div className="mt-5">
               <h5>Tell me about your projects</h5>
               <h5>Let's build projects together</h5>
-            </div>
+            
             <div className="mt-4">
               <p>
                 <i class="fa-solid fa-phone mr-2"></i>+91 9989331541

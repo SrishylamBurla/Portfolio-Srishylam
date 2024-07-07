@@ -3,7 +3,6 @@ import React from 'react'
 function Skills() {
   return (
     <div id='skills'>
-        <h2>Skills</h2>
         <div className='skill-set'>
     
             <div className='indiv-skill'>
