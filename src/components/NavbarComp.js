@@ -10,7 +10,7 @@ function NavbarComp() {
     <div>
     <Navbar variant={"dark"} collapseOnSelect expand="lg" className="navbar mb-5">
       <Container>
-        <Navbar.Brand href="/">SRISHYLAM</Navbar.Brand>
+        <Navbar className='font-sans font-bold text-red-500 text-4xl' href="/">SRISHYLAM</Navbar>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">

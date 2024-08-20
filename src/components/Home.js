@@ -41,7 +41,7 @@ function Home() {
             <i className="fa-brands fa-instagram fa-xl"></i>
           </a>
 
-          <a href="https://drive.google.com/file/d/1vpN__SAhtUw_iHCXLylTtwipojfQSvou/view">
+          <a href="https://drive.google.com/file/d/1bCGQRoOuAdBZvAMYliYY9jnmu-otHVRK/view?usp=sharing">
             <button className="resume-btn">Resume</button>
           </a>
         </div>
